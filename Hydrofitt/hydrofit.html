@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hydrofit</title>
+    <link rel="icon" type="image/png" href="silueta-botella-plastico-negra-tapa-agua-o-jugo_98396-123552.avif" />
+    <link rel="stylesheet" href="estilo.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="silueta-botella-plastico-negra-tapa-agua-o-jugo_98396-123552.avif" alt="Ícono Hydrofit" />
+            <h1>HYDROFIT</h1>
+        </div>
+        <p>"Botella inteligente que purifica y monitorea el consumo de agua"</p>
+    </header>
+
+    </header>
+
+    <section class="hero">
+        <img src="botellas.jpeg" alt="Botella Hydrofit" />
+    </section>
+
+    <section class="descripcion">
+        <h2>¿Qué es Hydrofit?</h2>
+        <p>Hydrofit es una botella inteligente que purifica el agua con luz UV-C y monitorea tu consumo diario mediante
+            una app. Ideal para personas activas, familias, y viajeros que buscan salud, sostenibilidad y tecnología.
+        </p>
+    </section>
+
+    <section class="beneficios">
+        <h2>Beneficios</h2>
+        <ul>
+            <li>💧 Sensor de calidad del agua y consumo diario</li>
+            <li>🌞 Carga solar y diseño ecológico</li>
+            <li>🔔 Notificaciones y recordatorios de hidratación</li>
+            <li>📱 Personalización desde la app según edad y actividad</li>
+            <li>♻️ Reutilizable, ideal para lugares sin agua potable</li>
+        </ul>
+    </section>
+
+    <section class="imagen-central">
+        <img src="colores.jpeg" alt="Tecnología Hydrofit" />
+    </section>
+
+    <section class="productos">
+        <h2>Compra tu Hydrofit</h2>
+        <div class="producto">
+            <img src="clasico.jpeg" alt="Botella Hydrofit Clásica" />
+            <h3>Hydrofit Clásica</h3>
+            <p>$49.90</p>
+            <button onclick="agregarCarrito('Hydrofit Clásica', 49.90)">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="premium.jpeg" alt="Hydrofit Pro" />
+            <h3>Hydrofit Pro</h3>
+            <p>$69.90</p>
+            <button onclick="agregarCarrito('Hydrofit Pro', 69.90)">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="accesorios.jpeg" alt="Accesorios" />
+            <h3>Accesorios y filtros</h3>
+            <p>Desde $9.90</p>
+            <button onclick="agregarCarrito('Accesorios', 9.90)">Agregar al carrito</button>
+        </div>
+    </section>
+
+    <section class="carrito">
+        <h2>🛒 Tu carrito</h2>
+        <ul id="lista-carrito"></ul>
+        <p id="total">Total: $0.00</p>
+    </section>
+
+    <section class="contacto">
+        <h2>Contáctanos</h2>
+        <form>
+            <input type="text" placeholder="Tu nombre" required />
+            <input type="email" placeholder="Tu correo" required />
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>INFORMACIÓN DE CONTACTO</h3>
+                <p>Dirección: Av. Los Pinos 456, Lima 15023</p>
+                <p>Teléfono: +51 987-654-321</p>
+                <p>Email: contacto@hydrofit.com</p>
+                <div class="social-icons">
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook" /></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145812.png" alt="Twitter" /></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="YouTube" /></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145808.png" alt="Pinterest" /></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145805.png" alt="Instagram" /></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>INFORMACIÓN</h3>
+                <ul>
+                    <li><a href="#">Acerca de Nosotros</a></li>
+                    <li><a href="#">Información Delivery</a></li>
+                    <li><a href="#">Políticas de Privacidad</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Contáctanos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>MI CUENTA</h3>
+                <ul>
+                    <li><a href="#">Mi cuenta</a></li>
+                    <li><a href="#">Historial de órdenes</a></li>
+                    <li><a href="#">Lista de deseos</a></li>
+                    <li><a href="#">Boletín</a></li>
+                    <li><a href="#">Reembolsos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>BOLETÍN INFORMATIVO</h3>
+                <p>Suscríbete a nuestros boletines ahora y mantente al día con nuevas colecciones y ofertas exclusivas.
+                </p>
+                <input type="email" placeholder="Ingresa el correo aquí..." />
+                <button>SUSCRÍBETE</button>
+            </div>
+        </div>
+
+        <div class="footer-payments">
+            <img src="Logos-01.png" alt="metodos">
+        </div>
+
+        <div class="footer-copy">
+            <p>© 2025 Hydrofit. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
